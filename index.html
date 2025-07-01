@@ -3,310 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon | Awesome Product</title>
+    <title>gatikotto Engineering India </title>
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
-        :root {
-            --primary-color: #6c63ff;
-            --secondary-color: #4d44db;
-            --dark-color: #2f2e41;
-            --light-color: #f8f9fa;
-        }
-        
         body {
-            font-family: 'Poppins', sans-serif;
-            background-color: #f5f5f5;
-            color: var(--dark-color);
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: #f8f9fa;
             height: 100vh;
-            overflow-x: hidden;
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-        }
-        
-        .coming-soon-container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 2rem;
-            height: 100%;
             display: flex;
-            flex-direction: column;
-            justify-content: center;
+            align-items: center;
         }
         
-        .logo {
-            font-weight: 700;
-            font-size: 2rem;
-            color: var(--primary-color);
-            margin-bottom: 2rem;
-        }
-        
-        .main-content {
+        .container-simple {
+            max-width: 600px;
+            text-align: center;
+            padding: 2rem;
             background: white;
-            border-radius: 20px;
-            padding: 3rem;
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .main-content::before {
-            content: '';
-            position: absolute;
-            top: -50px;
-            right: -50px;
-            width: 200px;
-            height: 200px;
-            background-color: rgba(108, 99, 255, 0.1);
-            border-radius: 50%;
-        }
-        
-        .main-content::after {
-            content: '';
-            position: absolute;
-            bottom: -30px;
-            left: -30px;
-            width: 150px;
-            height: 150px;
-            background-color: rgba(108, 99, 255, 0.1);
-            border-radius: 50%;
-            z-index: -1;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
         }
         
         h1 {
-            font-weight: 700;
-            font-size: 2.5rem;
+            font-weight: 600;
             margin-bottom: 1.5rem;
-            color: var(--dark-color);
+            color: #333;
         }
         
-        .highlight {
-            color: var(--primary-color);
-            position: relative;
-            display: inline-block;
+        .divider {
+            width: 80px;
+            height: 4px;
+            background: #0d6efd;
+            margin: 1.5rem auto;
+            border-radius: 2px;
         }
         
-        .highlight::after {
-            content: '';
-            position: absolute;
-            bottom: 5px;
-            left: 0;
-            width: 100%;
-            height: 10px;
-            background-color: rgba(108, 99, 255, 0.2);
-            z-index: -1;
-        }
-        
-        .lead {
-            font-size: 1.2rem;
-            margin-bottom: 2rem;
-            color: #666;
-        }
-        
-        .countdown {
+        .countdown-simple {
             display: flex;
             justify-content: center;
-            margin: 2rem 0;
             gap: 1rem;
+            margin: 2rem 0;
         }
         
-        .countdown-item {
-            background: var(--primary-color);
-            color: white;
-            padding: 1rem 1.5rem;
-            border-radius: 10px;
-            text-align: center;
-            min-width: 80px;
-            box-shadow: 0 5px 15px rgba(108, 99, 255, 0.3);
+        .countdown-item-simple {
+            background: #f1f1f1;
+            padding: 1rem;
+            border-radius: 8px;
+            min-width: 70px;
         }
         
-        .countdown-item span {
-            display: block;
+        .countdown-number {
+            font-size: 1.8rem;
+            font-weight: 600;
         }
         
-        .countdown-item .number {
-            font-size: 2rem;
-            font-weight: 700;
-        }
-        
-        .countdown-item .label {
+        .countdown-label {
             font-size: 0.8rem;
-            opacity: 0.8;
+            color: #666;
             text-transform: uppercase;
         }
         
-        .subscribe-form {
-            max-width: 500px;
+        .form-simple {
+            max-width: 400px;
             margin: 0 auto;
-        }
-        
-        .form-control {
-            padding: 1rem;
-            border-radius: 10px;
-            border: 1px solid #ddd;
-        }
-        
-        .btn-primary {
-            background-color: var(--primary-color);
-            border-color: var(--primary-color);
-            padding: 1rem 2rem;
-            border-radius: 10px;
-            font-weight: 600;
-            transition: all 0.3s ease;
-        }
-        
-        .btn-primary:hover {
-            background-color: var(--secondary-color);
-            border-color: var(--secondary-color);
-            transform: translateY(-2px);
-            box-shadow: 0 7px 15px rgba(108, 99, 255, 0.3);
-        }
-        
-        .social-icons {
-            margin-top: 2rem;
-        }
-        
-        .social-icons a {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 40px;
-            height: 40px;
-            background-color: var(--primary-color);
-            color: white;
-            border-radius: 50%;
-            margin: 0 0.5rem;
-            transition: all 0.3s ease;
-        }
-        
-        .social-icons a:hover {
-            background-color: var(--secondary-color);
-            transform: translateY(-3px);
-        }
-        
-        .illustration {
-            max-width: 100%;
-            height: auto;
-            margin: 2rem 0;
-        }
-        
-        @media (max-width: 768px) {
-            .main-content {
-                padding: 2rem 1.5rem;
-            }
-            
-            h1 {
-                font-size: 2rem;
-            }
-            
-            .countdown {
-                flex-wrap: wrap;
-            }
-            
-            .countdown-item {
-                min-width: 70px;
-                padding: 0.8rem;
-            }
-            
-            .countdown-item .number {
-                font-size: 1.5rem;
-            }
         }
     </style>
 </head>
 <body>
-    <div class="coming-soon-container">
-        <div class="logo">Awesome<span class="highlight">Product</span></div>
+    <div class="container container-simple">
+        <h1>Gatikotto </h1>
+        <h3>We're Coming Soon</h3>
+        <p class="lead">Our website is under construction. We'll be here soon with our new awesome site.</p>
         
-        <div class="main-content">
-            <div class="text-center">
-                <h1>Something <span class="highlight">Awesome</span> is Coming Soon</h1>
-                <p class="lead">We're working hard to bring you an amazing experience. Stay tuned for our launch!</p>
-                
-                <img src="https://illustrations.popsy.co/amber/launch-day.svg" alt="Coming Soon Illustration" class="illustration" style="max-height: 250px;">
-                
-                <div class="countdown">
-                    <div class="countdown-item">
-                        <span class="number" id="days">00</span>
-                        <span class="label">Days</span>
-                    </div>
-                    <div class="countdown-item">
-                        <span class="number" id="hours">00</span>
-                        <span class="label">Hours</span>
-                    </div>
-                    <div class="countdown-item">
-                        <span class="number" id="minutes">00</span>
-                        <span class="label">Minutes</span>
-                    </div>
-                    <div class="countdown-item">
-                        <span class="number" id="seconds">00</span>
-                        <span class="label">Seconds</span>
-                    </div>
-                </div>
-                
-                <div class="subscribe-form">
-                    <p class="mb-3">Get notified when we launch:</p>
-                    <form class="row g-2">
-                        <div class="col-md-8">
-                            <input type="email" class="form-control" placeholder="Enter your email address">
-                        </div>
-                        <div class="col-md-4">
-                            <button type="submit" class="btn btn-primary w-100">Notify Me</button>
-                        </div>
-                    </form>
-                </div>
-                
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </div>
+        <div class="divider"></div>
+        
+        <div class="countdown-simple">
+            <div class="countdown-item-simple">
+                <div class="countdown-number" id="simple-days">00</div>
+                <div class="countdown-label">Days</div>
+            </div>
+            <div class="countdown-item-simple">
+                <div class="countdown-number" id="simple-hours">00</div>
+                <div class="countdown-label">Hours</div>
+            </div>
+            <div class="countdown-item-simple">
+                <div class="countdown-number" id="simple-minutes">00</div>
+                <div class="countdown-label">Minutes</div>
+            </div>
+            <div class="countdown-item-simple">
+                <div class="countdown-number" id="simple-seconds">00</div>
+                <div class="countdown-label">Seconds</div>
             </div>
         </div>
+        
+      
     </div>
 
     <!-- Bootstrap JS Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     
-    <!-- Countdown Timer Script -->
+    <!-- Simple Countdown Timer -->
     <script>
-        // Set the date we're counting down to (change this to your launch date)
-        const countDownDate = new Date();
-        countDownDate.setDate(countDownDate.getDate() + 30); // 30 days from now
+        // Set launch date (30 days from now)
+        const launchDate = new Date();
+        launchDate.setDate(launchDate.getDate() + 30);
         
-        // Update the count down every 1 second
-        const x = setInterval(function() {
-            // Get today's date and time
-            const now = new Date().getTime();
+        function updateCountdown() {
+            const now = new Date();
+            const diff = launchDate - now;
             
-            // Find the distance between now and the count down date
-            const distance = countDownDate - now;
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
             
-            // Time calculations for days, hours, minutes and seconds
-            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-            
-            // Display the result
-            document.getElementById("days").innerHTML = days.toString().padStart(2, '0');
-            document.getElementById("hours").innerHTML = hours.toString().padStart(2, '0');
-            document.getElementById("minutes").innerHTML = minutes.toString().padStart(2, '0');
-            document.getElementById("seconds").innerHTML = seconds.toString().padStart(2, '0');
-            
-            // If the count down is finished, write some text
-            if (distance < 0) {
-                clearInterval(x);
-                document.getElementById("days").innerHTML = "00";
-                document.getElementById("hours").innerHTML = "00";
-                document.getElementById("minutes").innerHTML = "00";
-                document.getElementById("seconds").innerHTML = "00";
-            }
-        }, 1000);
+            document.getElementById("simple-days").textContent = days.toString().padStart(2, '0');
+            document.getElementById("simple-hours").textContent = hours.toString().padStart(2, '0');
+            document.getElementById("simple-minutes").textContent = minutes.toString().padStart(2, '0');
+            document.getElementById("simple-seconds").textContent = seconds.toString().padStart(2, '0');
+        }
+        
+        // Update every second
+        setInterval(updateCountdown, 1000);
+        updateCountdown(); // Initial call
     </script>
 </body>
 </html>
