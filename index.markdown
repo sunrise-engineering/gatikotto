@@ -107,8 +107,6 @@ description: "Gatikotto specializes in Sunrise Engineering solutions including S
     </section>
 
 
-
-
 <!-- product  -->
 {% include product.html %}
 <!-- our team -->
@@ -126,11 +124,11 @@ description: "Gatikotto specializes in Sunrise Engineering solutions including S
 
   <div class="container overflow-hidden">
     <div class="row gy-4 gy-lg-0 gx-xxl-5">
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-4 p-4">
         <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
           <div class="card-body p-0">
             <figure class="m-0 p-0">
-              <img class="img-fluid" loading="lazy" src="/assets/images/team-img-5.webp" alt="Flora Nyra">
+              <!-- <img class="img-fluid" loading="lazy" src="/assets/images/team-img-5.webp" alt="Flora Nyra"> -->
               <figcaption class="m-0 p-4">
                 <h4 class="mb-1">Amit Sharma </h4>
                 <p class="text-secondary mb-0">CEO</p>
@@ -139,40 +137,53 @@ description: "Gatikotto specializes in Sunrise Engineering solutions including S
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-4 p-4">
         <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
           <div class="card-body p-0">
             <figure class="m-0 p-0">
-              <img class="img-fluid" loading="lazy" src="/assets/images/team-img-5.webp" alt="Evander Mac">
+              <!-- <img class="img-fluid" loading="lazy" src="/assets/images/team-img-5.webp" alt="Evander Mac"> -->
               <figcaption class="m-0 p-4">
-                <h4 class="mb-1">Amit K</h4>
-                <p class="text-secondary mb-0">Product Manager</p>
+                <h4 class="mb-1">Vipin Kumar</h4>
+                <p class="text-secondary mb-0">Head – O&E</p>
               </figcaption>
             </figure>
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-4 p-4">
         <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
           <div class="card-body p-0">
             <figure class="m-0 p-0">
-              <img class="img-fluid" loading="lazy" src="/assets/images/team-img-5.webp" alt="Taytum Elia">
+              <!-- <img class="img-fluid" loading="lazy" src="/assets/images/team-img-5.webp" alt="Taytum Elia"> -->
               <figcaption class="m-0 p-4">
-                <h4 class="mb-1">Amit S</h4>
-                <p class="text-secondary mb-0">Research Lead</p>
+                <h4 class="mb-1">Vineet Asthana</h4>
+                <p class="text-secondary mb-0">OEM Marketing</p>
               </figcaption>
             </figure>
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-4 p-4">
         <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
           <div class="card-body p-0">
             <figure class="m-0 p-0">
-              <img class="img-fluid" loading="lazy" src="/assets/images/team-img-5.webp" alt="Wylder Elio">
+              <!-- <img class="img-fluid" loading="lazy" src="/assets/images/team-img-5.webp" alt="Wylder Elio"> -->
               <figcaption class="m-0 p-4">
-                <h4 class="mb-1">Amit P</h4>
-                <p class="text-secondary mb-0">Financial Analyst</p>
+                <h4 class="mb-1">Kamal Singh</h4>
+                <p class="text-secondary mb-0">Head – Commercial</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 p-4">
+        <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
+          <div class="card-body p-0">
+            <figure class="m-0 p-0">
+              <!-- <img class="img-fluid" loading="lazy" src="/assets/images/team-img-5.webp" alt="Wylder Elio"> -->
+              <figcaption class="m-0 p-4">
+                <h4 class="mb-1">Satish Singh</h4>
+                <p class="text-secondary mb-0">Head – Marketing (Aftermarket)</p>
               </figcaption>
             </figure>
           </div>
