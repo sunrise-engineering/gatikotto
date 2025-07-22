@@ -106,9 +106,8 @@ description: "Gatikotto specializes in Sunrise Engineering solutions including S
         </div>
     </section>
 
-<!-- our customer  -->
-<h2 class="text-center p-4">Our Customers</h2>
-{% include our-customer.html %}
+
+
 
 <!-- product  -->
 {% include product.html %}
