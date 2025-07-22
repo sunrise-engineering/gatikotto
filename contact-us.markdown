@@ -151,36 +151,63 @@ description: "Reach out to Gatikotto for expert guidance in SPM, automation syst
   }
 </style>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div class="glass-card">
   <!-- COMPANY INFORMATION SECTION -->
-  <div class="company-info bg-primary bg-gradient">
-    <div class="logo">
-      <div class="logo-text">📍 GATIKOTTO</div>
-    </div>
-    <p class="tagline">Engineering solutions with precision and innovation</p>
+ <div class="company-info bg-light bg-gradient">
+    <!-- <div class="logo"><div class="logo-text">📍 GATIKOTTO</div> </div> -->
+  <h3 class="text-dark">Our Head Office</h3> 
+   <p class="text-dark">Khasra No. 208 Kharkhara Dharuhera-121306</p>
+ <iframe   src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1051.8691510449378!2d76.76589146962948!3d28.202745780383943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDEyJzA5LjkiTiA3NsKwNDUnNTkuNSJF!5e1!3m2!1sen!2sin!4v1753185784560!5m2!1sen!2sin"   width="100%"   height="300"  style="border:0; border-radius: 8px;"  allowfullscreen=""  loading="lazy"  referrerpolicy="no-referrer-when-downgrade"> </iframe>
     <div class="contact-details">
       <div class="contact-item">
-        <div class="contact-icon">📍</div>
         <div class="contact-text">
-          <h3>Our Location</h3>
-          <p> Kharkhara Dharuhera-121306</p>
-          <p>201-5200 Dixie Road, Mississauga ON L4W 1E4</p>
+          <h3 class="text-dark p-2">Our Branch Office </h3>
+          <p class="text-dark"><i class="fa-solid fa-signs-post "></i> 201-5200 Dixie Road, Mississauga ON L4W 1E4</p>
         </div>
       </div>
-      <div class="contact-item">
-        <div class="contact-icon">✉️</div>
-        <div class="contact-text">
-          <h3>Email Us</h3>
-          <p>info@gatikotto.com</p>
+      <hr class="text-dark">
+     <div class="contact-item">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <div class="d-flex align-items-center">
+        <i class="fa-solid fa-envelope fa-xl" style="color: #B197FC;"></i>
+        <div class="contact-text ps-2">
+          <h5 class="mb-0 text-dark">Email Us</h5>
+          <p class="mb-0 text-dark">info@gatikotto.com</p>
         </div>
       </div>
-      <div class="contact-item">
-        <div class="contact-icon">📞</div>
-        <div class="contact-text">
-          <h3>Call Us</h3>
-          <p>+91-8448864776</p>
+    </div>
+    <div class="col-md-6">
+      <div class="d-flex align-items-center">
+        <i class="fa-solid fa-phone  fa-xl" style="color: #3874f7ff;"></i>
+        <div class="contact-text ps-2">
+          <h5 class="mb-0 text-dark">Call Us</h5>
+          <p class="mb-0 text-dark">+91-8448864776</p>
         </div>
       </div>
+    </div>
+  </div>
+</div>
     </div>
   </div>
   
@@ -207,3 +234,4 @@ description: "Reach out to Gatikotto for expert guidance in SPM, automation syst
     </div>
   </form>
 </div>
+

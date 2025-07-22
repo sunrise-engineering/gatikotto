@@ -28,6 +28,46 @@
 {% seo title=false %}
 </head>
 <body>
+   <!-- Launch time code -->
+     <!-- Launch Timer Overlay -->
+<div id="launchOverlay" style="position:fixed;top:0;left:0;width:100%;height:100%;background:#fff;z-index:9999;text-align:center;display:flex;flex-direction:column;justify-content:center;align-items:center;font-family:sans-serif;">
+  <h1 style="font-size:3.5rem;margin-bottom:1rem;">🚀 Launching Soon</h1>
+<img src="/assets/images/logo/logo.png" alt="Logo" style="width:150px;height:auto;margin-bottom:1rem;">
+  <div id="timer" class="fs-1 fw-bold font-monospace text-primary" style="font-size:3.8rem;color:#007BFF;">Loading...</div>
+</div>
+<script>
+  const overlay = document.getElementById("launchOverlay");
+  const timerBox = document.getElementById("timer");
+
+  const launchDate = new Date("2025-07-22T17:09:40").getTime();
+
+  // If timer is already finished once, don't show again
+  if (localStorage.getItem("launchComplete") === "yes") {
+    overlay.style.display = "none";
+  } else {
+    const interval = setInterval(() => {
+      const now = new Date().getTime();
+      const distance = launchDate - now;
+
+      if (distance < 1) {
+        clearInterval(interval);
+        localStorage.setItem("launchComplete", "yes"); // Mark launch complete
+        overlay.style.display = "none"; // Hide overlay
+        return;
+      }
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      timerBox.innerHTML =
+        `${days}d ${hours}h ${minutes}m ${seconds}s`;
+    }, 1000);
+  }
+</script>   
+ 
+
 {% include header.html %}
 <main>
 {{ content }}
