@@ -12,12 +12,49 @@ description: "Gatikotto specializes in Sunrise Engineering solutions including S
       height: 400px;
       object-fit: cover;
     }
+     /* .image-container {
+      position: relative;
+      display: inline-block;
+    } */
+    .click-point {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: white;
+      border-radius: 50%;
+      cursor: pointer;
+      opacity: 0.7;
+    }
+    .point1 { top: 46%; left: 14.5%; }
+    .point2 { top: 44%; left: 36%; }
+  
+    .click-point:hover .popup-image {
+      display: block;
+    }
+  .popup-image {
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  width: 350px;       
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: rgba(243, 241, 241, 0.95); 
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
   </style>
 
-  <div id="bannerCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="/assets/images/banner1.jpg" class="d-block w-100 h-50" alt="Banner 1">
+
+
+ <div id="bannerCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <!-- <img src="/assets/images/banner1.jpg" > -->
+     <div class="image-container">
+    <img src="/assets/images/banner1.jpg" class="d-block w-100 h-50" alt="Banner 1">
+    <div class="click-point point1"><div class="popup-image"><img src="/assets/images/pop-up1.png" alt="Hover Image 1" style="width: 100%; height: auto;"> </div></div>
+    <div class="click-point point2"><div class="popup-image"> <img src="/assets/images/pop-up2.png" alt="Hover Image 2" style="width: 100%; height: auto;"></div> </div>
+  </div>
       </div>
       <div class="carousel-item">
         <img src="/assets/images/banner2.jpg" class="d-block w-100 h-50" alt="Banner 2">
