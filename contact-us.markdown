@@ -182,7 +182,8 @@ description: "Reach out to Gatikotto for expert guidance in SPM, automation syst
       <div class="contact-item">
         <div class="contact-text">
           <h3 class="text-dark p-2">Our Branch Office </h3>
-          <p class="text-dark"><i class="fa-solid fa-signs-post "></i> 201-5200 Dixie Road, Mississauga ON L4W 1E4</p>
+          <p class="text-dark"><i class="fa-solid fa-signs-post "></i> 201-5200 Dixie Road, Mississauga L4W 1E4 Ontario Canada</p>
+          <p class="text-dark"><i class="fa-solid fa-phone" style="color: #3874f7ff;"></i> +13657220618</p>
         </div>
       </div>
       <hr class="text-dark">

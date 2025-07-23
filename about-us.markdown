@@ -14,12 +14,20 @@ description: "Learn about Gatikotto, a trusted engineering company specializing 
  <!-- Intro Section -->
  <section class="row mb-5">
   <div class="card border-0 shadow-sm">
-            <div class="card-body p-4">
-               <p class="card-text fs-5"> Gatikotto, operating under the name Sunrise Engineering, is a forward-thinking engineering company committed to delivering excellence in Special Purpose Machines (SPM), industrial automation, conveyor systems, dies, jigs, rubber and plastic parts, and high-precision machined components. Founded in 2018, we have steadily built a reputation for quality, trust, and innovation.  </p>
-                <p class="card-text fs-5"> Located near Govt. Degree College, Kharkhara, Gatikotto's works office and in-house manufacturing units are equipped with state-of-the-art technology and facilities to deliver complex, custom-engineered products with speed and precision.</p>
-                    </div>
+     <div class="card-body p-4">
+         <p class="card-text fs-5"> Welcome to <strong> Gatik Otto India Private Limited </strong>-Precision in Every Ride With a Brand name <strong>STROMAX </strong>​Backed by an experienced team of engineers, technicians, and industry experts, we combine deep technical knowledge with cutting-edge manufacturing to deliver reliable, top-quality products. Our team’s expertise
+ensures that every shock absorber meets the highest standards of safety, performance, and innovation.​<br>
+
+At GOIPL , we specialize in high-performance shock absorbers engineered
+specifically for 2W, 3W & 4 Wheeler. With a commitment to innovation,
+durability, and rider comfort, our products are designed to handle the
+toughest roads while delivering a smooth, stable ride. Whether you're a
+commuter, enthusiast, or professional rider, our advanced suspension
+solutions ensure enhanced control, superior safety, and unmatched riding
+pleasure. Trusted by manufacturers and riders alike, we stand for quality that
+lasts and performance you can feel.​ ​</p>
+<h4> Ride smoother. Ride safer. Ride with STROMAX .</h4>
                 </div>
-        </section>
  <!-- Vision & Mission -->
         <section class="row mb-5">
             <div class="col-md-6 mb-4">
@@ -83,12 +91,7 @@ description: "Learn about Gatikotto, a trusted engineering company specializing 
                         <h2 class="h3 text-center mb-4">Our Journey at a Glance</h2>
                         <div class="timeline">
                             <div class="row g-4">
-                                <div class="col-md-6 col-lg-3">
-                                    <div class="p-3 bg-light rounded h-100">
-                                        <h3 class="h5 text-primary">2018-19</h3> <p>Company inception with a focus on SPM and machine automation</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-3">
+                                  <div class="col-md-6 col-lg-3">
                                     <div class="p-3 bg-light rounded h-100">
                                         <h3 class="h5 text-primary">2020-21</h3> <p>Fabrication shop, hydraulic press, and machining center established</p>
                                     </div>
@@ -114,4 +117,3 @@ description: "Learn about Gatikotto, a trusted engineering company specializing 
                 </div>
             </div>
         </section>
-    </main>
