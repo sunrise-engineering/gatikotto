@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Gatikotto – Experts in SPM, Automation, Conveyors, Dies, Jigs, Rubber & Plastic Parts
+title: Gatikotto | High-Performance Suspension Systems for Ultimate Control
 permalink: /
-description: "Gatikotto specializes in Sunrise Engineering solutions including SPM machines, industrial automation, conveyors, precision dies, jigs, and high-quality rubber & plastic parts. Delivering innovative and customized manufacturing solutions for your industrial needs."
-#image: "/assets/images/age-calc-open-graph.png"
+description: "Discover Gatikotto – the leader in high-performance suspension systems designed for unmatched control, precision handling, and next-level driving performance"
+image: "/assets/images/e.png"
 ---
-<!-- <img src="/assets/images/Gatikotto-Product.jpg" alt="Gatikotto Products" class="img-fluid w-100 d-block" style="height: 500px; object-fit: cover;"> -->
+
 <!-- banner part  -->
  <style>
     .carousel-item img {
@@ -166,10 +166,7 @@ description: "Gatikotto specializes in Sunrise Engineering solutions including S
           <div class="card-body p-0">
             <figure class="m-0 p-0">
               <!-- <img class="img-fluid" loading="lazy" src="/assets/images/team-img-5.webp" alt="Flora Nyra"> -->
-              <figcaption class="m-0 p-4">
-                <h4 class="mb-1">Amit Sharma </h4>
-                <p class="text-secondary mb-0">Head – O&E</p>
-              </figcaption>
+              <figcaption class="m-0 p-4"> <h4 class="mb-1">Vipin Kumar</h4> <p class="text-secondary mb-0">CEO</p></figcaption>
             </figure>
           </div>
         </div>
@@ -179,10 +176,7 @@ description: "Gatikotto specializes in Sunrise Engineering solutions including S
           <div class="card-body p-0">
             <figure class="m-0 p-0">
               <!-- <img class="img-fluid" loading="lazy" src="/assets/images/team-img-5.webp" alt="Evander Mac"> -->
-              <figcaption class="m-0 p-4">
-                <h4 class="mb-1">Vipin Kumar</h4>
-                <p class="text-secondary mb-0">CEO</p>
-              </figcaption>
+              <figcaption class="m-0 p-4"><h4 class="mb-1">Amit Sharma </h4> <p class="text-secondary mb-0">Head – O&E</p></figcaption>
             </figure>
           </div>
         </div>
@@ -192,10 +186,7 @@ description: "Gatikotto specializes in Sunrise Engineering solutions including S
           <div class="card-body p-0">
             <figure class="m-0 p-0">
               <!-- <img class="img-fluid" loading="lazy" src="/assets/images/team-img-5.webp" alt="Taytum Elia"> -->
-              <figcaption class="m-0 p-4">
-                <h4 class="mb-1">Vineet Asthana</h4>
-                <p class="text-secondary mb-0">Head OEM Marketing</p>
-              </figcaption>
+              <figcaption class="m-0 p-4"> <h4 class="mb-1">Vineet Kumar</h4> <p class="text-secondary mb-0">Head OEM Marketing</p> </figcaption>
             </figure>
           </div>
         </div>
@@ -205,10 +196,7 @@ description: "Gatikotto specializes in Sunrise Engineering solutions including S
           <div class="card-body p-0">
             <figure class="m-0 p-0">
               <!-- <img class="img-fluid" loading="lazy" src="/assets/images/team-img-5.webp" alt="Wylder Elio"> -->
-              <figcaption class="m-0 p-4">
-                <h4 class="mb-1">Kamal Singh</h4>
-                <p class="text-secondary mb-0">Head – Commercial</p>
-              </figcaption>
+              <figcaption class="m-0 p-4"><h4 class="mb-1">Kamal Singh</h4><p class="text-secondary mb-0">Head – Commercial</p> </figcaption>
             </figure>
           </div>
         </div>
