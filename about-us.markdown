@@ -1,8 +1,8 @@
 ---
 layout: default
-title: About Us - Gatikotto | Experts in SPM, Automation & Sunrise Engineering
+title: About Gatikotto – Engineering Precision Suspension Systems
 permalink: /about-us
-description: "Learn about Gatikotto, a trusted engineering company specializing in SPM, automation, conveyors, dies, jigs, and rubber & plastic parts. Precision, innovation, and quality define us"
+description: "Gatikotto is dedicated to crafting high-performance suspension systems with precision engineering, delivering ultimate control, and confidence on every drive."
 ---
 
 <!-- Header -->

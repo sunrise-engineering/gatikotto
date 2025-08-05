@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Products – Gatikotto Sunrise Engineering | SPM, Automation, Conveyor, Rubber & Plastic Parts
+title: Gatikotto Suspension Products for Ultimate Vehicle Control
 permalink: /products
-description: "Explore Gatikotto’s wide range of precision-engineered products including SPM machines, industrial automation systems, conveyors, jigs, dies, rubber and plastic parts, machined components, and turnkey project solutions."
+description: "Browse Gatikotto’s high-performance suspension products—engineered for precision, stability, and peak performance across all driving conditions."
 ---
  <!-- product  -->
 {% include product.html %}

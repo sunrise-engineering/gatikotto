@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Our Customers – Gatikotto Sunrise Engineering | Trusted by Industry Leaders
+title: Our Customers – Trusting Gatikotto for Peak Performance
 permalink: /our-customer
-description: "Discover the valued customers who trust Gatikotto for precision engineering solutions. We proudly serve top clients across automotive, manufacturing, and industrial sectors with high-quality SPM, automation, and machined parts."
+description: "From performance enthusiasts to OEMs, our customers rely on Gatikotto’s suspension products for unmatched quality, control, and engineering excellence."
 ---
 <div class="container-fluid p-0">
   <div class="row g-0">
