@@ -8,14 +8,7 @@ image: "/assets/images/e.png"
 
 <!-- banner part  -->
  <style>
-    .carousel-item img {
-      height: 400px;
-      object-fit: cover;
-    }
-     /* .image-container {
-      position: relative;
-      display: inline-block;
-    } */
+    .carousel-item img {      height: 400px;      object-fit: cover;    }
     .click-point {
       position: absolute;
       width: 20px;
@@ -23,25 +16,25 @@ image: "/assets/images/e.png"
       background: white;
       border-radius: 50%;
       cursor: pointer;
-      opacity: 0.7;
+      opacity: 1.5;
     }
     .point1 { top: 46%; left: 14.5%; }
     .point2 { top: 44%; left: 36%; }
   
-    .click-point:hover .popup-image {
-      display: block;
-    }
+    .click-point:hover .popup-image {      display: block;    }
   .popup-image {
   display: none;
   position: absolute;
   top: 20px;
   left: 30px;
-  width: 350px;       
+  width: 250px;       
   border: 2px solid #ccc;
   border-radius: 10px;
-  background-color: rgba(243, 241, 241, 0.95); 
+  background-color: rgba(255, 255, 255, 0.95); 
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
+
+
   </style>
 
 
