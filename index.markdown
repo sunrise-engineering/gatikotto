@@ -75,7 +75,7 @@ image: "/assets/images/e.png"
                          alt="Precision Engineering" class="img-fluid rounded shadow">
                 </div>
                 <div class="col-lg-7">
-                    <h2 class="fw-bold mb-4">Engineering Excellence Since 2021</h2>
+                    <h2 class="fw-bold mb-4">Engineering Excellence Since 2023</h2>
                     <p class="lead">At Gatikotto, we are driven by determination, deep technical expertise, and a relentless passion for excellence.</p>
                     <p>With over a century of combined experience in mechanical component manufacturing, we deliver reliable, high-performance solutions tailored to a wide range of industrial and automotive applications.</p>
                     <div class="d-flex align-items-center mt-4">

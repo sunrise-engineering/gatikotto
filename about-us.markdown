@@ -73,27 +73,32 @@ description: "Gatikotto is dedicated to crafting high-performance suspension sys
                 </div>
             </div>
         </section>
-  <!-- Journey Timeline -->
-        <section class="row">
-            <div class="col-12">
-                <div class="card border-0 shadow-sm">
-                    <div class="card-body p-4">
-                        <h2 class="h3 text-center mb-4">Our Journey at a Glance</h2>
-                        <div class="timeline">
-                            <div class="row g-4">
-                                <div class="col-md-6 col-lg-4">
-                                    <div class="p-3 bg-light rounded h-100">
-                                        <h3 class="h5 text-primary">2023-24</h3><p>We’ve Begun Our Market Survey — Gathering Insights from Across the country.<br> <strong>R&D Establishment </strong></p>
-                                    </div>
+ <!-- Journey Timeline -->
+  <section class="row">
+    <div class="col-12">
+      <div class="card border-0 shadow-sm">
+         <div class="card-body p-4">
+          <h2 class="h3 text-center mb-4">Our Journey at a Glance</h2>
+            <div class="timeline">
+                <div class="row g-4">
+                     <div class="col-md-6 col-lg-4">
+                         <div class="p-3 bg-light rounded h-100"><h3 class="h5 text-primary">2023-24</h3><p><i class=" p-2 fa-solid fa-circle-check" style="color: #2670e8;" ></i> We’ve Begun Our Market Survey — Gathering Insights from Across the country.</p><p> <i class=" p-2 fa-solid fa-circle-check" style="color: #2670e8;" ></i> <strong>R&D Establishment </strong></p></div>
                                 </div>
                                 <div class="col-md-6 col-lg-4">
                                     <div class="p-3 bg-light rounded h-100">
-                                        <h3 class="h5 text-primary">2024-25</h3><p>Manufacturing Line for Rear Suspension Established <br> ISO 9001:2015 Certified.</p>
+                                        <h3 class="h5 text-primary">2024-25</h3><p><i class=" p-2 fa-solid fa-circle-check" style="color: #2670e8;" ></i> Manufacturing line established and production underway.</p><p><i class=" p-2 fa-solid fa-circle-check" style="color: #2670e8;" ></i> <strong> ISO 9001:2015 certified </strong>- ensuring excellence in quality management and manufacturing.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-4 mx-auto">
                                     <div class="p-3 bg-light rounded h-100">
-                                        <h3 class="h5 text-primary">2025-26</h3> <p>Website Launch​ Planning for ​ISO 27001​ ISO 45001​ ISO 14001​ IATF 16949​</p>
+                                        <h3 class="h5 text-primary">2025-26</h3> <p><strong> <i class=" p-2 fa-solid fa-circle-check" style="color: #2670e8;" ></i> Website Launched </strong> <br>
+            Planning is currently underway for the following certifications: </p>
+            <p><ol> 
+            <li><strong> IATF 16949:2016 </strong> - Automotive Quality Management System</li>
+            <li><strong>  ISO 14001 </strong> - Environmental Management System</li>
+            <li><strong> ISO 45001 </strong> - Occupational Health & Safety Management System</li>
+            <li><strong> ISO 27001 </strong> - Information Security Management System</li>
+                </ol>   ​</p>
                                     </div>
                                 </div>
                             </div>
