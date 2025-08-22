@@ -200,7 +200,7 @@ image: "/assets/images/e.png"
             <figure class="m-0 p-0">
               <!-- <img class="img-fluid" loading="lazy" src="/assets/images/team-img-5.webp" alt="Wylder Elio"> -->
               <figcaption class="m-0 p-4">
-                <h4 class="mb-1">Satish Singh</h4>
+                <h4 class="mb-1">Satish Kumar</h4>
                 <p class="text-secondary mb-0">Head – Marketing (Aftermarket)</p>
               </figcaption>
             </figure>
