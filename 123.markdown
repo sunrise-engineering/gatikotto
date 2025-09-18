@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Us - Gatikotto | Experts in SPM, Automation & Sunrise Engineering
+title: About Us - Gatikotto | Experts in SPM, Automation
 permalink: /123
 description: "Learn about Gatikotto, a trusted engineering company specializing in SPM, automation, conveyors, dies, jigs, and rubber & plastic parts. Precision, innovation, and quality define us"
 ---

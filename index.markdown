@@ -2,7 +2,7 @@
 layout: default
 title: Gatikotto | High-Performance Suspension Systems for Ultimate Control
 permalink: /
-description: "Discover Gatikotto – the leader in high-performance suspension systems designed for unmatched control, precision handling, and next-level driving performance"
+description: "Gatikotto delivers high-performance suspension systems engineered for precision handling, ultimate control, and next-level driving performance."
 image: "/assets/images/e.png"
 ---
 
